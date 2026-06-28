@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR1e0023/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR1e0023/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 劉氏春秋意林
+  date: '2015-08-24 22:13:06.516196'
+  source:
+    repository: kanripo
+    path: KR1e0023
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR1e0023_000-WYG.yaml, hash: 'sha256:2efd5b7efbe1a3fbe2b43d2efda2dbf903aa2884338bb2083f068bb3076aacd8'}
+  - {seq: 1, filename: KR1e0023_001-WYG.yaml, hash: 'sha256:6bd5762fbb065bc0faf251d6994dc83a4afa7a8c7abb85f3ed604a3edddd1ba2'}
+  - {seq: 2, filename: KR1e0023_002-WYG.yaml, hash: 'sha256:bef806d34ef33362ca6cc1fafc5cd357a65fbe5035a926666ff3dc07b94ec3ea'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR1e0023_000-WYG.markers.yaml, hash: 'sha256:70b82cbeb72fc63aeb307a61b3d55daed70cac755ef1a4e6167687ea3662ac46'}
+  - {seq: 1, role: markers, filename: assets/KR1e0023_001-WYG.markers.yaml, hash: 'sha256:a52343b58556cb21f3cd0265b6b98bec4b9b3c2bbb0d3e3f446a0aa62a0af37d'}
+  - {seq: 2, role: markers, filename: assets/KR1e0023_002-WYG.markers.yaml, hash: 'sha256:200e1e8585100f0ddbf4c1f0883abbe8df42f56efd3dce2b9b2b4b456eec288c'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR1e0023_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 359
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR1e0023_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 17999
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR1e0023_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 13748
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:0ce91db2ca8b44ce95cf31afb8b31cfabe478f390c5f1db08eda15c2aaa36274

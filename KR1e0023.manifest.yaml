@@ -1,0 +1,64 @@
+canonical_identifier: bkk:krp/KR1e0023/v1
+canonical_location: https://kanripo.org/bkk/KR1e0023/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 劉氏春秋意林
+  date: '2015-08-24 22:13:06.516196'
+  source:
+    repository: kanripo
+    path: KR1e0023
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR1e0023_000.yaml, hash: 'sha256:251abe6418d07f465bcc64478e792b400fb67ac95a81b11fa95948fd29b4e04c'}
+  - {seq: 1, filename: KR1e0023_001.yaml, hash: 'sha256:99bcee2ed17ced9d611c99e3fde1c52ae6b772098862c963560d695150a56539'}
+  - {seq: 2, filename: KR1e0023_002.yaml, hash: 'sha256:cdddc0ea54f76a5e7feabcd5651042c5d84321016867e57447958ecb9d2a5d00'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR1e0023_000.markers.yaml, hash: 'sha256:4bcc1385208a4c2b3196577b37bac170a4cde2dc74c2d6a8436c5f3c29922c9c'}
+  - {seq: 1, role: markers, filename: assets/KR1e0023_001.markers.yaml, hash: 'sha256:dca76db5fba9e946b36ebfa8a13b385db6b17a2d1c316e3d45b6843c1ea9df3c'}
+  - {seq: 2, role: markers, filename: assets/KR1e0023_002.markers.yaml, hash: 'sha256:0dda0e93d065950e677a66abeffa95988d71cbdec6722a7b3530318386e9086d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR1e0023_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 359
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR1e0023_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 17999
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR1e0023_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 13748
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:b8eaeae09d7ff76d9f5c0ee10ef96b822c8052fab4125f99f40b0934820266cc
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
